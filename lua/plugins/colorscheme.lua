@@ -1,8 +1,8 @@
 return {
-	"EdenEast/nightfox.nvim",
+	"ellisonleao/gruvbox.nvim",
 	config = function()
-		require('nightfox').setup()
-		vim.cmd("colorscheme nightfox")
+		require('gruvbox').setup()
+		vim.cmd("colorscheme gruvbox")
 	end,
 
 }
