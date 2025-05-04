@@ -310,6 +310,7 @@ return {
         }
       })
 
-      vim.keymap.set('n', '<C-n>', ':Neotree toggle <cr>', {})
+      vim.keymap.set('n', '<C-p>', ':Neotree toggle <cr>', {})
+      vim.keymap.set('n', '<C-n>', ':Neotree filesystem <cr>', {})
     end
 }
